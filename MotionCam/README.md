@@ -11,3 +11,4 @@ By chatting with the Telegram bot you can:
 
 ![Screenshot](https://github.com/aserracardona/RaspberryPI/blob/main/MotionCam/Screenshot.jpg =250x250)
 
+<img src="https://github.com/aserracardona/RaspberryPI/blob/main/MotionCam/Screenshot.jpg" alt="drawing" width="200"/>
