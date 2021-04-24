@@ -9,6 +9,5 @@ By chatting with the Telegram bot you can:
   - Turn the motion sensor on or off
   - Reboot the Raspberry Pi
 
-![Screenshot](https://github.com/aserracardona/RaspberryPI/blob/main/MotionCam/Screenshot.jpg =250x250)
 
-<img src="https://github.com/aserracardona/RaspberryPI/blob/main/MotionCam/Screenshot.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/aserracardona/RaspberryPI/blob/main/MotionCam/Screenshot.jpg" alt="drawing" width="300"/>
