@@ -4,7 +4,7 @@ This script will allow you to control a Raspberry Pi Camera with a passive infra
 
 By chatting with the Telegram bot you can:
 
-  - Recive an alert everytime the motion sensor gets activated as well as the picture
+  - Recieve an alert everytime the motion sensor gets activated as well as the picture
   - Take a picture with the Raspberry Pi Camera
   - Turn the motion sensor on or off
   - Reboot the Raspberry Pi
