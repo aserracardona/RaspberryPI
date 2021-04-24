@@ -14,7 +14,8 @@ By chatting with the Telegram bot you can:
 
 
 ## Requirements
-It requires the [telepot](https://telepot.readthedocs.io/en/latest/#) library to interact with the Telegram bot.
+It requires [telepot](https://telepot.readthedocs.io/en/latest/#) to interact with the Telegram bot.
 
 You will need to create a [Telegram bot](https://core.telegram.org/bots) and add it into a group chat.
-In the script, you will need to add the bot token and the chat id in the indicated variables (refer to [here](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id) to get the chat id).
+
+In the script, you will need to add the bot token and the chat id in the indicated variables (refer to [here](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id) to obtain the chat id).
