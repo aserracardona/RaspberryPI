@@ -27,14 +27,14 @@ bot.getMe()
 camera.led = False
 
 
-def motion_alert():
+def motion_alert(): #function called when the PIR sensor detects motion. It sends a message with the timestamp, captures a picture, and sends it
     print('Motion detected!')
     intruder_time = 'Motion Alert! ' + time.strftime("%Y/%m/%d %H:%M:%S")
     bot.sendMessage(chat_id, intruder_time)
     take_pic()
     time.sleep(60) #time before the motion detector will be activated again
 
-def take_pic():
+def take_pic(): #function to take a picture and send it to the Telegram chat at any time
     camera.start_preview()
     camera.annotate_text_size = 12
     camera.annotate_text = time.strftime("%Y/%m/%d %H:%M:%S")
@@ -43,12 +43,12 @@ def take_pic():
     camera.stop_preview() 
     bot.sendPhoto(chat_id, open('/home/pi/Pictures/PiCamera/image.jpg', 'rb')) #sends the picture it just took
     
-def PIR_control_ON():
+def PIR_control_ON(): #turn PIR sensor on
     global PIR_status
     PIR_status = True
     bot.sendMessage(chat_id, 'PIR Camera ON')
     
-def PIR_control_OFF():
+def PIR_control_OFF(): #turn PIR sensor off
     global PIR_status
     PIR_status = False
     bot.sendMessage(chat_id, 'PIR Camera OFF')
